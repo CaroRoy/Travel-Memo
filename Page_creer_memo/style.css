@@ -1,0 +1,51 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  font-family: "Open Sans", sans-serif;
+  background: url("/annie-spratt-qyAka7W5uMY-unsplash.jpg") no-repeat top/cover;
+}
+
+main {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+span {
+  color: orange;
+  font-size: 2em;
+  font-family: "Merriweather", serif;
+}
+
+h2 {
+  font-family: "Merriweather", serif;
+  color: whitesmoke;
+}
+
+section a {
+  display: block;
+  width: 100px;
+  margin: 10px auto 0;
+  text-align: center;
+}
+
+@media screen and (max-width: 750px) {
+  main {
+    font-size: 1.3em;
+  }
+
+  nav .navbar-toggler {
+    font-size: 0.6em;
+  }
+
+  h2 {
+    font-size: 1.3em;
+  }
+
+  form {
+    font-size: 0.9em;
+  }
+
+  .btn {
+    font-size: 1em;
+  }
+}

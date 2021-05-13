@@ -1,0 +1,64 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background: url("/annie-spratt-qyAka7W5uMY-unsplash.jpg") no-repeat top/cover;
+}
+
+main {
+  min-height: 100vh;
+  max-width: 100vw;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+span {
+  color: orange;
+  font-size: 2em;
+  font-family: "Merriweather", serif;
+}
+
+.card {
+  color: rgb(75, 75, 75);
+}
+
+h2 {
+  font-family: "Merriweather", serif;
+  color: whitesmoke;
+}
+
+.recipes .liste {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.liste .card {
+  width: 30%;
+  margin: 0 3% 20px 0;
+}
+
+.liste img {
+  height: 300px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 750px) {
+  main {
+    font-size: 1.3em;
+  }
+
+  nav .navbar-toggler {
+    font-size: 0.6em;
+  }
+
+  .card {
+    width: 75%;
+    font-size: 0.9em;
+  }
+
+  .btn {
+    font-size: 1em;
+  }
+
+  .liste .card {
+    margin-right: 0;
+    width: 100%;
+  }
+}
