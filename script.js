@@ -7,7 +7,7 @@ $("form").on("submit", function (e) {
   e.preventDefault();
 
   if ($("input:first").val() === pseudo && $("input:last").val() === pass) {
-    $(location).attr("href", "/Travel-Memo/Page_mes_memos/mes-memos.html");
+    $(location).attr("href", "/Page_mes_memos/mes-memos.html");
   } else {
     $(".alert").fadeIn();
   }
