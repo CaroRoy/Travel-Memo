@@ -2,8 +2,8 @@ body {
   height: 100vh;
   width: 100vw;
   font-family: "Open Sans", sans-serif;
-  background: url("/Travel-Memo/assets/annie-spratt-qyAka7W5uMY-unsplash.jpg")
-    no-repeat top/cover;
+  background: url("/assets/annie-spratt-qyAka7W5uMY-unsplash.jpg") no-repeat
+    top/cover;
 }
 
 main {
